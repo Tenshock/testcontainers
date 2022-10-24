@@ -1,0 +1,1 @@
+# TestContainers miminum project

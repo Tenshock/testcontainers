@@ -1,0 +1,81 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 0,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 1,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1666623310043,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 1,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1666623310671,
+        "runtime": 573,
+        "slow": false,
+        "start": 1666623310098
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/cprezelin/repo/export/testcontainers/test/elastic-search-testcontainers.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "elastic-search testcontainers"
+          ],
+          "duration": 5,
+          "failureDetails": [
+            {}
+          ],
+          "failureMessages": [
+            "Error: No Docker client strategy found\n    at /Users/cprezelin/repo/export/testcontainers/node_modules/testcontainers/dist/docker/docker-client.js:46:11\n    at Generator.next (<anonymous>)\n    at fulfilled (/Users/cprezelin/repo/export/testcontainers/node_modules/testcontainers/dist/docker/docker-client.js:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+          ],
+          "fullName": "elastic-search testcontainers should create an instance",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should create an instance"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1melastic-search testcontainers › should create an instance\u001b[39m\u001b[22m\n\n    No Docker client strategy found\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2mnode_modules/testcontainers/dist/docker/docker-client.js\u001b[2m:46:11\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[22m\u001b[2mnode_modules/testcontainers/dist/docker/docker-client.js\u001b[2m:5:58)\u001b[22m\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "wasInterrupted": false
+}
